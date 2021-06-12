@@ -9,14 +9,14 @@ import (
 
 // Logger usage
 //
+// Initialise configuration
+//
+//  loggerConfig := new(logger.Config)
+//  err := loggerConfig.InitConfig()
+//
 // Global initialisation with configuration
 //
-//  logger.InitLogger(appConfig.LogConfig)
-//
-// Get logger from context - the context prepares the logger format, level and correlation ID:
-//
-//  Context ctx
-//  ctx.getLogger("main logger")
+//  logger.InitLogger(loggerConfig)
 //
 // Create logger in place:
 //
