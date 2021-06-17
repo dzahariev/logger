@@ -56,7 +56,7 @@ To change the level to `warn` of the application at deploy time, use the env var
 LOG_LEVEL=warn
 ``` 
 
-# Usage Eaxmple
+# Usage Exаmple
 
 Formatters for structured logging can be implemented and added easily. 
 On global level the configuration defines the format and the minimal logging level for the whole application. 
